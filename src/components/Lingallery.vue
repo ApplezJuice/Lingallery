@@ -92,8 +92,8 @@
               :alt="Object.prototype.hasOwnProperty.call(item, 'alt') ? item.alt : ''"
               :src="item.thumbnail"
               :style="thumbnailStyle(index)"
-              width="64"
-              height="64"
+              width="150"
+              height="100"
               v-on="
                 currentIndex !== index
                   ? { click: () => handleImageClick(index) }
